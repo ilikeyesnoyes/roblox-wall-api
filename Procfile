@@ -1,1 +1,1 @@
-web: python roblox_wall_server.py
+web: gunicorn roblox_wall_server:app
